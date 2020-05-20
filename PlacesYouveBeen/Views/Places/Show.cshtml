@@ -1,21 +1,16 @@
 @using Places.Models;
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello Friend!</title>
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
-  </head>
-  <body>
-    <h1>Places visited: </h1>
-    <h2>@Model.CityName</h2>
-    <img src='@Model.MyPicture' width=50%>
-    <p>Travel Companion: @Model.Companion</p>
-    <p>Trip Details: @Model.MyJournal</p>
+@{
+  Layout = "_Layout";
+}
+
+<h1>Places visited: </h1>
+<h2>@Model.CityName</h2>
+<img src='@Model.MyPicture' width=50%>
+<p>Travel Companion: @Model.Companion</p>
+<p>Trip Details: @Model.MyJournal</p>
 
 
-    <a href='/places/new'>Add another item</a>
-    <a href='/places'>View all items</a>
+<button class="btn btn-light"><a href='/places/new'>Add another item</a></button>
+<button class="btn btn-light"><a href='/places'>View all items</a></button>
 
-  </body>
-</html>
