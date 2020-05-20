@@ -28,5 +28,11 @@ namespace Places.Test
       City newCity2 = new City("Nice", "http://www.test.com", "Alone", "Car Race");
       Assert.AreEqual("Nice", City.CityList[1].CityName);
     }
+    [TestMethod]
+    public void PlaceConscructor_TestMyPicture_URL()
+    {
+      City newCity = new City("Barcelona", "http://www.test.com", "Nick", "Summer 2017 - Visit Dancing Fountains");
+      Assert.AreEqual("http://www.test.com", newCity.MyPicture);
+    }
   }
 }
