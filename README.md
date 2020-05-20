@@ -1,12 +1,12 @@
-# _To Do List_
+# _Places You've Been_
 
-#### _Epicodus Project May 19, 2020_
+#### _Epicodus Project May 20, 2020_
 
-#### By _**Jessica Hvozdovich and Mai Cook**_
+#### By _**Jessica Hvozdovich and Khan Sahab**_
 
 ## Description
 
-_A project to introduce the C# language and the .NET Core framework. The initial console application that took user input to display goals and descriptions is transferred to a front-end application using an MVC Web Interface._
+_A project to introduce the C# language and the .NET Core framework. A website to log places we've traveled as an online diary. Back-end logic will test a place constructor and be integrated into a user form to add entries. It will also serve as an introduction to proper RESTful practices and naming conventions._
 
 ## Setup/Installation Requirements
 
@@ -22,23 +22,26 @@ There are no known bugs at the time of this update.
  
 ## Support and contact details
 
-_Have a bug or an issue with this application? [Open a new issue](https://github.com/jhvozdovich/to-do-list-1) here on GitHub._
+_Have a bug or an issue with this application? [Open a new issue](https://github.com/jhvozdovich/places-youve-been-csharp/issues) here on GitHub._
 
 ## Technologies Used
 
 * C#
 * .NET Core
+* ASP.NET Core MVC
+* MSBuild
+* Razor
 * Git and GitHub
 
 ### Specs
 | Spec | Input | Output |
 | :------------- | :------------- | :------------- |
-| **User can add a to do list item** | User Input:”walk dog” | Output: "added to list" |
-| **User can multiple items to a do list item** | User Input:”walk dog, weed garden” | Output: "items added to list" |
-| **User can view to do list** | User Input: "View List” | Output: "walk dog, weed garden, view cat" |
+| **User can add a city** | User Input:”City: Barcelona” | Output: "Places You've Been: Barcelona" |
+| **User can view the the total list** | User Input:”Click-View All Entries” | Output: "Barcelona, Paris, Copenhagen" |
+
 
 ### License
 
 This software is licensed under the MIT license.
 
-Copyright (c) 2020 **_Jessica Hvozdovich and Mai Cook_**
+Copyright (c) 2020 **_Jessica Hvozdovich and Khan Sahab_**
