@@ -13,10 +13,12 @@
   @foreach (City city in Model)//list<Items>{{}}
   {
   @* <li>@city.CityName @city.Companion</li> *@
-  <li><a href='/places/@city.Id'>@city.CityName @city.Id</a></li>
+  <li><a href='/places/@city.Id'>@city.CityName</a></li>
   }
 </ul>
 <button class="btn btn-light"><a href='/places/new'>Add a new item</a></button>
-@*<form action="/items/delete" method="post">
-  <button type="submit" name="button">Clear All Items</button>
-</form>*@
+<br>
+<br>
+<form action="/places/delete" method="post">
+  <button type="submit" name="button" class="btn">Clear All Items</button>
+</form>

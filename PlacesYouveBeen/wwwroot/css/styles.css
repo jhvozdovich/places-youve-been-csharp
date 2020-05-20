@@ -1,9 +1,10 @@
 body {
   background-color: rgb(102, 146, 185);
   text-align: center;
+  margin: 2%;
 }
 
-h1{
+h1, h2{
   color: whitesmoke;
 }
 
