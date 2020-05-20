@@ -36,5 +36,10 @@ namespace Places.Models
     {
       CityList.Clear();
     }
+
+    public static void DeleteMyPlace(int SearchId)
+    {
+      CityList.RemoveAt(SearchId-1);
+    }
   }
 }

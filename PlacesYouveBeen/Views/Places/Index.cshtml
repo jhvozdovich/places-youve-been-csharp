@@ -9,13 +9,13 @@
 {
 <p>No Places have been visited so far.</p>
 }
-<ul>
-  @foreach (City city in Model)//list<Items>{{}}
-  {
-  @* <li>@city.CityName @city.Companion</li> *@
-  <li><a href='/places/@city.Id'>@city.CityName</a></li>
-  }
-</ul>
+
+@foreach (City city in Model)//list<Items>{{}}
+{
+@* <li>@city.CityName @city.Companion</li> *@
+<p><a href='/places/@city.Id'>@city.CityName</a></p>
+}
+
 <button class="btn btn-light"><a href='/places/new'>Add a new item</a></button>
 <br>
 <br>
