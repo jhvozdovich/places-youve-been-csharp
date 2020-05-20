@@ -36,9 +36,11 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 ### Specs
 | Spec | Input | Output |
 | :------------- | :------------- | :------------- |
-| **User can add a city** | User Input:”City: Barcelona” | Output: "Places You've Been: Barcelona" |
+| **User can add a city, an image url, a travel companion, and a description** | User Input:”City: Barcelona, Image Url: www.testimage.com, Companion: Nick Description: Saw the dancing fountains in 2017” | Output: "Places You've Been: Barcelona" |
 | **User can view the the total list** | User Input:”Click-View All Entries” | Output: "Barcelona, Paris, Copenhagen" |
-
+| **User can view trip details** | User Input:”Click-Barcelona” | Output: "City: Barcelona, Image Url: www.testimage.com, Companion: Nick Description: Saw the dancing fountains in 2017" |
+| **User can delete all items** | User Input:”Click-Remove All Entries” | Output: "You've cleared all your entries." |
+| **User can delete one item** | User Input:”Click-Remove This Entry” | Output: "You've cleared this entry." |
 
 ### License
 
